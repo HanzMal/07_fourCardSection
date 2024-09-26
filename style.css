@@ -28,6 +28,8 @@ body {
   font-family: "Poppins", sans-serif;
   font-size: 15px;
   background-color: var(--neutral-lightGray);
+    display: flex;
+  flex-direction: column;
 }
 
 .container {
@@ -180,4 +182,8 @@ header p {
   .cards .down {
     transform: translateY(50%);
   }
+}
+
+footer {
+  text-align: center;
 }
